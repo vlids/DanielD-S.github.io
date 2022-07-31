@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+/*header-section*/
+header h1 {
+    text-align: center;
+    background-color: #000000;
+    font: normal normal 300 16px/19px Raleway;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+header img {
+    width: 100%;
+}
+
+.cambia-color:hover {
+    color: green;
+}
+
+/*desc-section*/
+.desc {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.text-desc,
+.img-desc {
+    display: inline-block;
+    vertical-align: middle;
+    font: normal normal 300 16px/19px Raleway;
+}
+
+.text-desc {
+    width: 50%;
+    color: white;
+    text-justify: auto;
+    text-align: left;
+    padding: 3rem;
+}
+
+.img-desc {
+    width: 35%;
+    border-radius: 15px;
+
+}
+
+.zoom-desc img:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1.15);
+
+}
+
+/*Icon-section*/
+.icons h2 {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #1e1a13;
+    font: normal normal medium 40px/47px Raleway;
+
+}
+
+.icons {
+    color: #FFFFFF;
+    background-color: #1e1a13;
+    padding: 1rem;
+}
+
+.icon-item {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding: 3rem 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.icon-item p {
+    padding: 1rem 0;
+    font-size: 25px;
+    font: normal normal 300 25px/30px Raleway;
+}
+
+/*Gallery-section*/
+.gallery {
+    padding: 5rem 1rem;
+    text-align: center;
+    background-color: #000000;
+}
+
+.gallery-img {
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    padding: 1.2rem;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+/*Galeria Flip*/
+.gallery-img2 {
+    border-radius: 15px;
+    width: 100%;
+    height: 300px;
+}
+
+.flip-box {
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    background-color: #000000;
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    font: normal normal 300 16px/19px Raleway;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+/* Grados de rotacion con un hover */
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+/* Posicion-tamaño frente y parte posterior*/
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Si usa Mac- Navegador-Safari */
+    backface-visibility: hidden;
+}
+
+/* Estilo parte trasera */
+.flip-box-back {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+/*footer-section*/
+footer p {
+    text-align: center;
+    padding: 2rem;
+    background-color: #1e1a13;
+    color: #FFFFFF;
+    font: normal normal 300 20px/24px Raleway;
+}
+
+footer a {
+    text-decoration: none;
+    color: red;
+}

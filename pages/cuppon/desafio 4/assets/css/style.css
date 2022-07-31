@@ -1,0 +1,35 @@
+.card {
+    width: 80%;
+    margin: auto;
+}
+
+.fs-7 {
+    font-size: 0.7rem;
+}
+
+.text-small {
+    font-size: 17px;
+}
+
+.text-big {
+    font-size: 25px;
+    color: green;
+}
+
+.roboto {
+    font: normal normal 300 20px Roboto;
+}
+
+.roboto2 {
+    font: normal normal medium 500 21px Roboto;
+}
+
+.img-black {
+    width: 84px;
+    height: 24px;
+}
+
+.img-white {
+    width: 86px;
+    height: 25px;
+}
